@@ -1,0 +1,221 @@
+body {
+    height: 100vh;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.header, .right-links {
+    background-color: #761a1a;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    height: auto;
+    margin: 0px;
+    border: 0px;
+    padding: 16px;
+    padding-left: 15%;
+    padding-right: 15%;
+    white-space: nowrap;
+}
+.right-links {
+    font-size: 18px;
+    color: #e5e7eb;
+    justify-content: flex-end;
+    gap: 25px;
+}
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bolder;
+}
+ .team_avatar {
+    height: 350px;
+    border-radius: 20px 20px 35px 35px;
+    border-top: solid black 10px;
+    border-bottom: solid black 6px;
+    border-left: solid black 5px;
+    border-right: solid black 5px;
+}
+.mid-container {
+    color: #f9faf8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    flex: 1;
+    background-color: #142d4c;
+    height: 400px;
+    gap: 15px;
+    margin: 0px;
+    padding: 16px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-right: 10px;
+    height: 350px;
+   max-width: 400px;
+   min-width: 400px;
+}
+.text-1 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+.text-2 {
+    font-size: 18px;
+}
+.button {
+    border-radius: 5px;
+    background-color: #003e21;
+    border: white solid;
+    color: white;
+    font-weight: bold;
+    width: 100px;
+    height: 30px;
+}
+.box-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:flex-start;
+    gap: 25px;
+}
+
+.member-info {
+    display: flex ;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    text-align: center;
+    height: 600px;
+}
+
+.member-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bolder;
+    padding-top: 40px;
+    margin: 0px;
+}
+.imgbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    flex: 1;
+    max-width: 250px;
+    text-align: start;
+    font-size: larger;
+    font-weight: lighter;
+    gap: 15px;
+}
+.picbox {
+    width: 250x;
+    height: 250px;
+    border: solid #003e21 5px;
+    border-radius: 10px;
+}
+.pic {
+    min-width: 250px;
+    min-height: 250px;
+    max-width: 250px;
+    border-radius: 5px;
+}
+.quote-block {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 400px;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.quote-text {
+    padding: 0px 150px 15px 150px;
+    font-style: italic;
+    font-weight: lighter;
+    width: 800px;
+    text-align: start;
+}
+.quote-author {
+    text-align: center;
+    margin-left: 500px;
+    font-weight: bold;
+    font-size: 28px;
+    width: 300px;
+}
+.action-block {
+    height: 300px;
+    width: auto;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+.action-container {
+    width: 1000px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #e8630a;
+    border-radius: 10px;
+}
+.action-button {
+    height: 150px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.signup {
+    background-color: #9cd3d3;
+    color: white;
+    border-radius: 5px;
+    border-color: white;
+    border: solid;
+    padding: 5px 25px 5px 25px;
+    font-weight: bold;
+}
+.action-text-1 {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+.action-text-2 {
+    font-size: 16px;
+    color: white;
+    font-weight: lighter;
+}
+.footer {
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    background-color: #761a1a;
+}
+.footer-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
