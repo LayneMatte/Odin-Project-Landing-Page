@@ -127,6 +127,8 @@ a {
     border: solid #003e21 5px;
     border-radius: 10px;
 }
+/*I like to avoid abbreviations when writing class names to help avoid confusion. 
+Not everyone who works on your code may use english as their first language */
 .pic {
     min-width: 250px;
     min-height: 250px;
@@ -196,6 +198,7 @@ a {
     padding: 5px 25px 5px 25px;
     font-weight: bold;
 }
+/*I suggest avoiding class names like this. Try to be descriptive for what this text is doing */
 .action-text-1 {
     font-size: 24px;
     color: white;
